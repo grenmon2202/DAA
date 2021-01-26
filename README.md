@@ -4,6 +4,6 @@
 
 ### Group Members
    
-   Harsh Meena         - IIT2019005
-   Asha Jyothi Donga   - IIT2019006
-   Sampada Kathar      - IIT2019007 
+   * Harsh Meena         - IIT2019005
+   * Asha Jyothi Donga   - IIT2019006
+   * Sampada Kathar      - IIT2019007 
