@@ -7,11 +7,11 @@
 |    IIT2019006  |   Asha Jyothi Donga | 
 |    IIT2019007  |   Sampada Kathar |
 
-**Group No-**"2"
+**Group No-** 2
 
-**Faculty Name-**"Dr. Md. Javed"
+**Faculty Name-** Dr. Md. Javed
 
-**Mentor Name-** "Md. Meraz"
+**Mentor Name-** Md. Meraz
 
 ---
 ## Problem Statement
