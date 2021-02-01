@@ -56,4 +56,4 @@ for i in range(0,n2):
     tmp=int(input())
     arr2.append(tmp)
     
-merge(arr1, arr2, n1, n2);
+merge(arr1, arr2, n1, n2)
