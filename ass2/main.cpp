@@ -40,6 +40,8 @@ int main(int argc, char *argv[])
            }
            k++; j--;
         }
+        if(maxlen<len)
+              {maxlen=len; x=j+1; y=k-1; direction=0; }
        
             j=i-1; k=1; len=1;
             while(j>=0 && k<=n-1)
@@ -55,6 +57,8 @@ int main(int argc, char *argv[])
                  k++; j--;
              
            }
+        if(maxlen<len)
+        {maxlen=len; x=j+1; y=k-1;direction=0;}
 
     }
     //digonals from bottom-right to top-left direction=1 for this type of digonals
@@ -73,7 +77,9 @@ int main(int argc, char *argv[])
             }
             j--; k--;
         }
-         
+          if(maxlen<len)
+               {maxlen=len; x=j+1; y=k+1; direction=1; }
+        
             j=i-1; k=n-2; len=1;
             while(j>=0 && k>=0)
            {
@@ -87,6 +93,8 @@ int main(int argc, char *argv[])
             }
             j--; k--;
            }
+         if(maxlen<len)
+               {maxlen=len; x=j+1; y=k+1; direction=1; }
         
     }
     //printing the elements
