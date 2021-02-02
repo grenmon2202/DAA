@@ -1,7 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main()
-{    int n=50;
+{    int n; cout<<"Enter the size of square matrix "<<endl;
+    cin>>n;
+    cout<<endl;
     vector<vector<int>> v(n);
     cout<<"The random matrix :"<<n<<"x"<<n<<endl;
     for(int i=0;i<n;i++)
