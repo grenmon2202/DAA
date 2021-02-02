@@ -1,12 +1,11 @@
 #include<bits/stdc++.h>
 using namespace std;
-int main()
-{    int n; cout<<"Enter the size of square matrix "<<endl;
-    cin>>n;
-    cout<<endl;
-    vector<vector<int>> v(n);
-    cout<<"The random matrix :"<<n<<"x"<<n<<endl;
-    for(int i=0;i<n;i++)
+int main(int argc, char *argv[])
+{
+    int n=50;
+    int v[n][n];
+    
+    /*for(int i=0;i<n;i++)
     {
         v[i].resize(n);
         for(int j=0;j<n;j++)
@@ -15,7 +14,25 @@ int main()
             cout<<v[i][j]<<" ";
         }
         cout<<endl;
+    }*/
+    
+    string file_name = argv[2];
+    fstream file;
+    file.open(file_name.c_str());
+    int mi = 0, mj= 0;
+    
+    string number;    
+    while(file>>number){
+    	v[mi][mj]=stoi(number);
+    	mj++;
+    	if(mj==50){
+    		mj=0;
+    		mi++;
+    	}
+    	if(mi==50)
+    		break;
     }
+    
     cout<<endl;
     int maxlen=1; int x=-1,y=-1; int direction=-1;
     //diagonals from bottom-left to top-right  direction=0 for this type digonals

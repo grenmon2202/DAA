@@ -1,17 +1,33 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int main(){
-    cout<<"Enter the size of square matrix: \n";
-    int n;cin>>n;
+int main(int argc, char *argv[]){
+    int n = 6;
     int matx[n][n];
-    cout<<"Enter the elements in matrix one by one \n";
-    for(int i=0;i<n;++i){
-        for(int j=0;j<n;++j){
-            cin>>matx[i][j];
-        }
+    string file_name = argv[2];
+    fstream file;
+    file.open(file_name.c_str());
+    int mi = 0, mj= 0;
+    
+    string number;    
+    while(file>>number){
+    	matx[mi][mj]=stoi(number);
+    	mj++;
+    	if(mj==50){
+    		mj=0;
+    		mi++;
+    	}
+    	if(mi==50)
+    		break;
     }
-
+    
+    for(int i = 0; i<n; i++){
+    	for (int j = 0; j<n; j++){
+    		cout<<matx[i][j]<<"		";
+    	}
+    	cout<<endl;
+    }
+    
     int maxlen=1;
     int l=1;
     
