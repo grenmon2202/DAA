@@ -10,24 +10,14 @@ git clone https://github.com/grenmon2202/DAA
 ```
 Initialisation: 
 ```
-cd DAA
-#create assignment-01 folder
-mkdir assignment-01
-
-#go to assignment-01
-cd assignment-01
-
-#Create file
-touch readme.md
-touch main.py
-.
-.
+#Go to assignment folder
+cd DAA/ass1
 ```
 ---
 
 Run the code
 ```
-python main.py
+python3 main.py
 ```
 Sample Input and Output
 ```
