@@ -10,19 +10,7 @@ git clone https://github.com/grenmon2202/DAA
 ```
 Initialisation: 
 ```
-cd DAA
-#create assignment-02 folder
-mkdir assignment-02
-
-#go to assignment-02
-cd assignment-02
-
-#Create file
-touch readme.md
-touch input.txt
-touch main.cpp
-.
-.
+cd DAA/ass2
 ```
 ---
 
