@@ -77,11 +77,8 @@ The space complexity of this algorithm is O(1), since no extra space is used.
 
 ### References
 
-[1]​ https://www.geeksforgeeks.org/longest-in
-creasing-subarray/
-[2]​ https://www.geeksforgeeks.org/maximum
--length-of-strictly-increasing-sub-array-after
--removing-at-most-one-element/
-[3]​ https://stackoverflow.com/questions/1449
-2047/longest-subarray-that-has-elements-in-
-increasing-order
+[1]​ https://www.geeksforgeeks.org/longest-increasing-subarray/
+
+[2]​ https://www.geeksforgeeks.org/maximum-length-of-strictly-increasing-sub-array-after-removing-at-most-one-element/
+
+[3]​ https://stackoverflow.com/questions/14492047/longest-subarray-that-has-elements-in-increasing-order
