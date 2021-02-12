@@ -1,4 +1,4 @@
-# Assignment-1
+# Design and Analysis of Algorithms
 
 **Team Members**
 |   Enrollment No.  |   Name   | 
