@@ -82,8 +82,8 @@ The space complexity of this algorithm is O(k)
 
 ### References
 
-https://www.geeksforgeeks.org/k-th-greatest-element-in-a-max-heap/
+[1] https://www.geeksforgeeks.org/k-th-greatest-element-in-a-max-heap/
 
-https://www.tutorialspoint.com/data_structures_algorithms/heap_data_structure.htm
+[2] https://www.tutorialspoint.com/data_structures_algorithms/heap_data_structure.htm
 
-https://www.geeksforgeeks.org/priority-queue-set-1-introduction/
+[3] https://www.geeksforgeeks.org/priority-queue-set-1-introduction/
