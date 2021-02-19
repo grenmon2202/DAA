@@ -41,11 +41,16 @@ Sample Input and Output
 ```
 Test Case-1
 Input:
-
+7
+20 15 18 8 10 5 17
+3
+Output: 17
 #--------------------------#
 Test Case-2
 Input:
-
+7
+100 50 80 10 25 20 75
+4
 ```
 
 ---
@@ -55,8 +60,8 @@ To find the index of the kth greatest element forthe given Binary Max heap Array
 1.  Create the max heap (priorityqueue in stl)pq.
 2.  Push the root of given max heap array (i.efirst element of the Heap array).
 3.  Repeat the steps for k-1 steps.
-	•Pop  from  the  max  heap  pq  (greaterelement in the max heap pq)
-	•Insert the left and right of the popped element if the children exist.
+	a.Pop  from  the  max  heap  pq  (greaterelement in the max heap pq)
+	b.Insert the left and right of the popped element if the children exist.
 4.  The greatest element in the pq is the kthgreatest element in the given heap.
 
 To get the left child and right child of the nodewe need index, so the pair of value and its indexis pushed into the priorityqueue (max heap).
